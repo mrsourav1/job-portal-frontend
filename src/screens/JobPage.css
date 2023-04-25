@@ -1,0 +1,10 @@
+@media (min-width:1024px) {
+    .jobPage_Section{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-around;
+        /* display: flex;
+        justify-content: space-around;
+        flex-wrap: ; */
+    }
+}

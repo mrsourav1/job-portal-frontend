@@ -1,0 +1,47 @@
+.sidebar_section{
+    position: fixed;
+    /* margin-right: 30px; */
+    left: 30px;
+}
+
+.sidebar_container{
+    height: 80vh;
+    background-color: rgb(243, 243, 243);
+    /* width: 55vh; */
+    width: max-content;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-left: 50px;
+    margin-top: 60px;
+    
+}
+
+.category_section{
+    margin-top: 30px;  
+    margin-left: 20px;  
+    margin-right: 20px;  
+}
+
+/* .category_container{
+    margin-right: 15px;
+    margin-right: ;
+} */
+
+.search_section{
+    margin-top: 30px;  
+    margin-left: 20px;  
+    margin-right: 20px;    
+}
+
+.experienceAndType_section{
+    margin-top: 20px;
+    margin-left: 20px;  
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:1070px) {
+    .sidebar_section{
+        display: none;
+    }
+}

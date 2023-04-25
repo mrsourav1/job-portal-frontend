@@ -1,0 +1,62 @@
+.footer_container{
+    background-color: #a1a9b9;
+    height: fit-content;
+    color: #272f3d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.companyLogo_image{
+    height: 60px;
+}
+
+.companyLogo_Section{
+    /* background-color: aqua; */
+    height: 200px;
+    width: 200px;
+}
+
+.companyLogo_Container{
+    text-align: center;
+}
+
+.companyLogo_Para{
+    font-size: 0.8rem;
+}
+
+.quickLink_linkContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quickLink_Container{
+    /* width: 500px; */
+}
+
+.socialIcon_list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+    font-size: 0.8rem;
+}
+
+.social_icons{
+    font-size: 2rem;
+    margin-left: 0;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+/* .footer_SectionC{
+    text-align: start;
+} */
+
+.socialMedia_handleSection{
+
+}

@@ -1,0 +1,10 @@
+.register_container{
+    padding: 15px;
+}
+
+.registerForm{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

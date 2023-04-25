@@ -1,0 +1,58 @@
+.jobCard_Section{
+    margin: 20px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.jobCard_Container {
+    /* height: 250px; */
+    min-height: min-content;
+    min-width: min-content;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color: rgb(243, 243, 243);
+    /* min-width: 600px; */
+    /* width: 100%;  */
+    /* width: 500px; */
+    width: 550px;
+    margin-top:20px;
+    border-radius: 10px;
+    padding: 15px;
+    /* margin-right: 120px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .jobCard_details{
+    padding-top: 10px;
+    padding-left: 20px;
+} */
+
+.jobCard_heading{
+    /* margin-left: 30px; */
+    
+}
+
+.job_location{
+    display: flex;
+    flex-direction: row;  
+}
+
+.job_details {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewDetails_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+
+@media (max-width:1000px) {
+    .jobCard_Container{
+        width: 100%;
+    }
+}
